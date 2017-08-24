@@ -1,0 +1,90 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFF !important;
+}
+body:-webkit-full-page-media {
+  background-color: #FFF !important;
+}
+.nopad {
+  padding: 0 !important;
+}
+.nomargin {
+  margin: 0 !important;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 600;
+}
+.skinny-text {
+  -webkit-font-smoothing: antialiased;
+}
+.p-xs {
+  padding: 10px;
+}
+.header {
+  background-image: url('/images/banner.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.myName {
+  background-image: url('/images/putuutxt.png');
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  position: relative;
+  top: 50px;
+}
+a.black-text:hover {
+  color: red !important;
+}
+.hover-nav:hover {
+  background-color: transparent !important;
+}
+.grid-item {
+  line-height: 0;
+}
+a.opacity-img {
+  display: inline-block;
+  background: black;
+  padding: 0;
+  overflow: hidden !important;
+}
+a.opacity-img img {
+  display: block;
+  -webkit-transition: all 0.4s linear;
+     -moz-transition: all 0.4s linear;
+      -ms-transition: all 0.4s linear;
+       -o-transition: all 0.4s linear;
+          transition: all 0.4s linear;
+}
+a.opacity-img:hover img {
+  opacity: 0.6;
+}
+.grid-item {
+  overflow: hidden !important;
+}
+.grid-item .lazyLoaded:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .full-width {
+    width: 100%;
+  }
+  .p-sides-small {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
